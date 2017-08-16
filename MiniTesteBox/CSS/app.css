@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.wraper{
+    border: 1px solid black;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: stretch;
+    
+}
+
+header{
+    border: 1px solid red;
+}
+
+main{
+    border: 1px solid red;
+    flex-grow: 5;
+}
+
+footer{
+    border: 1px solid red;
+}
