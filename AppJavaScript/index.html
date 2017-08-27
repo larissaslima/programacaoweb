@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AppJavaScript</title>
+    </head>
+    <body>
+        <script>
+            var frutas =[];
+            var newfruta = "n";
+            
+            do{
+                var fruta = prompt("Digite o nome de uma fruta: ");
+                frutas.push(fruta);
+                
+                newfruta = prompt("Deseja digitar o nome de outra fruta SIM ou NÃO?");
+            } while (newfruta.toLowerCase().indexOf('s')!=-1);
+            
+            for(var i = 0, tam = frutas.length; i < tam; i++){
+                console.log(frutas[i]);
+            }
+        </script>
+    </body>
+</html>
